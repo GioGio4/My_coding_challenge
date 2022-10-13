@@ -1,0 +1,71 @@
+body{ 
+    background-image:url(background.jpg);
+    background-size: cover;
+}
+
+
+.background_box{
+    background-color: rgba(13, 13, 13, 0.64);
+    border-radius: 20px;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+header,nav > div{
+    text-align: center;
+    color: rgb(66, 250, 69);
+}
+
+.box_pulsanti {
+    background-color: rgb(66, 250, 69);
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+}
+
+.scooter_box {
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    line-height: 10px; 
+}
+
+.scelta_monopattino{
+    display: inline-block;   
+}
+
+.monopattino{
+   display: inline-block;
+}
+
+.arrow:after{
+    content: "\21A6";
+}
+.statusbar1{
+    background-color: orange;
+    height: 30px;
+    width: 400px;
+    border-radius: 3px;
+    
+}
+
+.statusbar2{
+    background-color:rgb(66, 250, 69);
+    height: 30px;
+    width: 650px;
+    border-radius: 3px;
+}
+
+.statusbar3{
+    background-color: red;
+    height: 30px;
+    width: 200px;
+    border-radius: 3px;
+}
+
+*{
+    box-sizing: border-box
+}
